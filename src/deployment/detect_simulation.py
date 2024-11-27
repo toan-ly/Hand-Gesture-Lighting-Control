@@ -6,7 +6,7 @@ import torch
 import numpy as np
 from torch import nn
 import mediapipe as mp
-from controller import ModbusMaster
+from src.deployment.controller import ModbusMaster
 from src.utils.hand_landmarks_detector import HandLandmarksDetector
 from src.utils.label_dict import label_dict_from_config_file
 from src.model.neural_network import NeuralNetwork
